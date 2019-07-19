@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gitlab.skypicker.com/platform/security/iam/storage"
+	"github.com/iam/storage"
 )
 
 func TestGroupMemberships(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"gitlab.skypicker.com/platform/security/iam/monitoring"
+	"github.com/iam/monitoring"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary

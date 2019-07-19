@@ -6,9 +6,9 @@ import (
 
 	"github.com/getsentry/raven-go"
 	"github.com/kiwicom/go-useragent"
-	cfg "gitlab.skypicker.com/platform/security/iam/config"
-	"gitlab.skypicker.com/platform/security/iam/monitoring"
-	"gitlab.skypicker.com/platform/security/iam/storage"
+	cfg "github.com/iam/config"
+	"github.com/iam/monitoring"
+	"github.com/iam/storage"
 	"golang.org/x/sync/singleflight"
 )
 

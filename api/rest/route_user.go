@@ -10,9 +10,9 @@ import (
 	"github.com/getsentry/raven-go"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/julienschmidt/httprouter"
-	"gitlab.skypicker.com/platform/security/iam/monitoring"
-	"gitlab.skypicker.com/platform/security/iam/security"
-	"gitlab.skypicker.com/platform/security/iam/services/okta"
+	"github.com/iam/monitoring"
+	"github.com/iam/security"
+	"github.com/iam/services/okta"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary

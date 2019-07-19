@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"gitlab.skypicker.com/platform/security/iam/security/secrets"
+	"github.com/iam/security/secrets"
 )
 
 type mockedSecretManager struct {

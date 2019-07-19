@@ -6,8 +6,8 @@ import (
 
 	"github.com/getsentry/raven-go"
 	"github.com/julienschmidt/httprouter"
-	"gitlab.skypicker.com/platform/security/iam/services/okta"
-	"gitlab.skypicker.com/platform/security/iam/storage"
+	"github.com/iam/services/okta"
+	"github.com/iam/storage"
 )
 
 type groupsGetter interface {
